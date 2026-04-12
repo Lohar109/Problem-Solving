@@ -54,4 +54,6 @@ function calculateCompoundInterest(P, r, t, n) {
     return a.toFixed(2);
 }
 
-module.exports = { calculateCompoundInterest };
+// Test Cases
+console.log(calculateCompoundInterest(1000, 0.5, 10, 4));
+console.log(calculateCompoundInterest(1500, 0.04, 6, 2));
