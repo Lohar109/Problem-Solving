@@ -114,4 +114,7 @@ function checkChar(ch) {
   }
 }
 
-module.exports = { checkChar };
+// Test Cases
+console.log(checkChar('a'));
+console.log(checkChar('B'));
+console.log(checkChar('1'));
