@@ -44,4 +44,6 @@ function findGreatest(a, b, c) {
     else return c;
 }
 
-module.exports = { findGreatest };
+// Test Cases
+console.log(findGreatest(3, 7, 5));
+console.log(findGreatest(10, 20, 5));
