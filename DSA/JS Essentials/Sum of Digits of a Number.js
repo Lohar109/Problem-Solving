@@ -49,4 +49,7 @@ function sumOfDigits(n) {
     return sum;
 }
 
-module.exports = { sumOfDigits };
+// Test Cases
+console.log(sumOfDigits(936));
+console.log(sumOfDigits(1234));
+console.log(sumOfDigits(100000000));
