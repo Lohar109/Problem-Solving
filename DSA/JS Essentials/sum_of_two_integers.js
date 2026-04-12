@@ -38,4 +38,6 @@ function sum(a, b) {
 
 }
 
-module.exports = {sum}
+// Test Cases
+sum(10, 20);
+sum(-10, 10);
