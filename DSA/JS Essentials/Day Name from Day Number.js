@@ -67,4 +67,8 @@ function printDayName(day) {
     }
 }
 
-module.exports = { printDayName };
+// Test Cases
+console.log(printDayName(3));
+console.log(printDayName(7));
+console.log(printDayName(0));
+console.log(printDayName(8));
