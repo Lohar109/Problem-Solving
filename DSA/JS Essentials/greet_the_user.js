@@ -31,4 +31,6 @@ function greet(name, age) {
     console.log(`Hello ${name} you are ${age} years old.`);
 }
 
-module.exports = { greet };
+// Test Cases
+greet('Shery', 12);
+greet('Alice', 1);
