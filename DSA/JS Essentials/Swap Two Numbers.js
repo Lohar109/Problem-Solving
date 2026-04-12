@@ -51,4 +51,6 @@ function swapNumbers(a, b) {
 
 }
 
-module.exports = { swapNumbers };
+// Test Cases
+sum(10, 20);
+sum(-10, 10);
