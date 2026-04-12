@@ -59,4 +59,8 @@ function isAutomorphic(n) {
     return 'No';
 }
 
-module.exports = { isAutomorphic };
+// Test Cases
+console.log(isAutomorphic(5));
+console.log(isAutomorphic(7));
+console.log(isAutomorphic(25));
+console.log(isAutomorphic(76));
