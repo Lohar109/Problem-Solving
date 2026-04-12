@@ -41,4 +41,8 @@ function isLeapYear(year) {
     
 }
 
-module.exports = { isLeapYear };
+// Test Cases
+console.log(isLeapYear(2020));
+console.log(isLeapYear(1900));
+console.log(isLeapYear(2000));
+console.log(isLeapYear(2021));
