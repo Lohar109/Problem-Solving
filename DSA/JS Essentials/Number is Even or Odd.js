@@ -45,4 +45,8 @@ function checkEvenOrOdd(num) {
     
 }
 
-module.exports = { checkEvenOrOdd };
+// Test Cases
+console.log(checkEvenOrOdd(4));
+console.log(checkEvenOrOdd(7));
+console.log(checkEvenOrOdd(-2));
+console.log(checkEvenOrOdd(0));
