@@ -52,5 +52,5 @@ function swapNumbers(a, b) {
 }
 
 // Test Cases
-sum(10, 20);
-sum(-10, 10);
+console.log(swapNumbers(5, 10));
+console.log(swapNumbers(0, 0));
