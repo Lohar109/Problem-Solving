@@ -45,4 +45,7 @@ function checkVoterEligibility(name, age) {
     
 }
 
-module.exports = { checkVoterEligibility };
+// Test Cases
+console.log(checkVoterEligibility('Alice', 20));
+console.log(checkVoterEligibility('Bob', 16));
+console.log(checkVoterEligibility('Charlie', 18));
